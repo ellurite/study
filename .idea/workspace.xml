@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83c7f5b7-eeab-44c8-8672-aecea8074f10" name="Changes" comment=" regroup" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;superpro2005&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/superpro2005/projects_opencv.git&quot;,
+    &quot;accountId&quot;: &quot;bce4557c-0e39-4bae-8ab9-2f96794a647b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="30UopAflpcXd1fNDIGYh7mHrBsl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.AI_house_counter.executor": "Run",
+    "Python.house_counter.executor": "Debug",
+    "Python.lesseon 4.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "configurable.group.project"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User74\PycharmProjects\PythonProject\opencv" />
+      <recent name="C:\Users\User74\PycharmProjects\PythonProject\study_bmstu" />
+      <recent name="C:\Users\User74\PycharmProjects\PythonProject" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83c7f5b7-eeab-44c8-8672-aecea8074f10" name="Changes" comment="" />
+      <created>1753691693044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753691693044</updated>
+    </task>
+    <task id="LOCAL-00001" summary="zxc">
+      <option name="closed" value="true" />
+      <created>1754915708020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754915708020</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task 1">
+      <option name="closed" value="true" />
+      <created>1756902248200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756902248200</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rename">
+      <option name="closed" value="true" />
+      <created>1756902301171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756902301171</updated>
+    </task>
+    <task id="LOCAL-00004" summary="rename">
+      <option name="closed" value="true" />
+      <created>1756902476856</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756902476856</updated>
+    </task>
+    <task id="LOCAL-00005" summary=" regroup">
+      <option name="closed" value="true" />
+      <created>1756902620345</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756902620345</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zxc" />
+    <MESSAGE value="task 1" />
+    <MESSAGE value="rename" />
+    <MESSAGE value=" regroup" />
+    <option name="LAST_COMMIT_MESSAGE" value=" regroup" />
+  </component>
+</project>
