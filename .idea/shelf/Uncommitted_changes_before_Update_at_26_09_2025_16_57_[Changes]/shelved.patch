@@ -1,0 +1,84 @@
+Index: study_bmstu/spectrum.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/study_bmstu/spectrum.py b/study_bmstu/spectrum.py
+new file mode 100644
+--- /dev/null	(date 1758291043999)
++++ b/study_bmstu/spectrum.py	(date 1758291043999)
+@@ -0,0 +1,2 @@
++import torch
++
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"83c7f5b7-eeab-44c8-8672-aecea8074f10\" name=\"Changes\" comment=\" regroup\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;superpro2005&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/superpro2005/projects_opencv.git&quot;,\r\n    &quot;accountId&quot;: &quot;bce4557c-0e39-4bae-8ab9-2f96794a647b&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"30UopAflpcXd1fNDIGYh7mHrBsl\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"Python.AI_house_counter.executor\": \"Run\",\r\n    \"Python.house_counter.executor\": \"Debug\",\r\n    \"Python.lesseon 4.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"settings.editor.selected.configurable\": \"configurable.group.project\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\User74\\PycharmProjects\\PythonProject\\opencv\" />\r\n      <recent name=\"C:\\Users\\User74\\PycharmProjects\\PythonProject\\study_bmstu\" />\r\n      <recent name=\"C:\\Users\\User74\\PycharmProjects\\PythonProject\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"83c7f5b7-eeab-44c8-8672-aecea8074f10\" name=\"Changes\" comment=\"\" />\r\n      <created>1753691693044</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1753691693044</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"zxc\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1754915708020</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1754915708020</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"task 1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1756902248200</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1756902248200</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"rename\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1756902301171</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1756902301171</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"rename\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1756902476856</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1756902476856</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\" regroup\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1756902620345</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1756902620345</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"zxc\" />\r\n    <MESSAGE value=\"task 1\" />\r\n    <MESSAGE value=\"rename\" />\r\n    <MESSAGE value=\" regroup\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\" regroup\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b8b76fdeb66148836bafd5fdfc66476d82a15595)
++++ b/.idea/workspace.xml	(date 1758285220845)
+@@ -4,7 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="83c7f5b7-eeab-44c8-8672-aecea8074f10" name="Changes" comment=" regroup" />
++    <list default="true" id="83c7f5b7-eeab-44c8-8672-aecea8074f10" name="Changes" comment=" regroup">
++      <change afterPath="$PROJECT_DIR$/study_bmstu/spectrum.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -44,12 +47,14 @@
+   "keyToString": {
+     "ModuleVcsDetector.initialDetectionPerformed": "true",
+     "Python.AI_house_counter.executor": "Run",
++    "Python.correlation.executor": "Run",
+     "Python.house_counter.executor": "Debug",
+     "Python.lesseon 4.executor": "Run",
++    "Python.spectrum.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
+     "git-widget-placeholder": "master",
+-    "settings.editor.selected.configurable": "configurable.group.project"
++    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+@@ -114,7 +119,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1756902620345</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary=" regroup">
++      <option name="closed" value="true" />
++      <created>1756903989098</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1756903989098</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+@@ -124,4 +137,15 @@
+     <MESSAGE value=" regroup" />
+     <option name="LAST_COMMIT_MESSAGE" value=" regroup" />
+   </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <default-breakpoints>
++        <breakpoint type="python-exception">
++          <properties notifyOnTerminate="true" exception="BaseException">
++            <option name="notifyOnTerminate" value="true" />
++          </properties>
++        </breakpoint>
++      </default-breakpoints>
++    </breakpoint-manager>
++  </component>
+ </project>
+\ No newline at end of file
