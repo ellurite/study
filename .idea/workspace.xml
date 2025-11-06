@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83c7f5b7-eeab-44c8-8672-aecea8074f10" name="Changes" comment=" regroup">
-      <change beforePath="$PROJECT_DIR$/study_bmstu/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_bmstu/correlation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_bmstu/kp/best.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_bmstu/kp/kp.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_bmstu/kp/plane_detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_bmstu/kp/plane_detect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_bmstu/kp/test_programm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_bmstu/kp/yolov5s.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_bmstu/kp/yolov8n.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_bmstu/kp1.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml/qam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv/house_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv/house_counter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +34,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/superpro2005/projects_opencv.git&quot;,
-    &quot;accountId&quot;: &quot;bce4557c-0e39-4bae-8ab9-2f96794a647b&quot;
+    &quot;url&quot;: &quot;https://github.com/superpro2005/study.git&quot;,
+    &quot;accountId&quot;: &quot;5fcc1c5a-ccbd-43ba-9d99-1f05e7171e6a&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -58,13 +53,14 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.AI_house_counter.executor": "Run",
-    "Python.house_counter.executor": "Debug",
+    "Python.house_counter.executor": "Run",
     "Python.image_generator.executor": "Run",
     "Python.kp.executor": "Run",
     "Python.kp1.executor": "Run",
     "Python.lesseon 4.executor": "Run",
     "Python.main.executor": "Run",
     "Python.plane_detect.executor": "Run",
+    "Python.qam.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -81,10 +77,11 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+        <option value="bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="83c7f5b7-eeab-44c8-8672-aecea8074f10" name="Changes" comment="" />
@@ -149,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761426176531</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" regroup">
+      <option name="closed" value="true" />
+      <created>1761426657067</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761426657067</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
