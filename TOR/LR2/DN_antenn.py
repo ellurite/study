@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import re
 
-file_path = r"C:\Users\superpro2005\Desktop\study\python\TOR\LR2\uniform_dist.txt"
+file_path = r"C:\Users\User74\PycharmProjects\PythonProject\TOR\LR2\phase_dist.txt"
 
 with open(file_path, 'r') as file:
     content = file.read()
@@ -25,7 +25,7 @@ def beamwidth(angles, P):
 
     angle_min = np.min(angles_wide)
     angle_max = np.max(angles_wide)
-
+    print(angle_min)
     width = angle_max - angle_min
 
     return width
@@ -38,7 +38,7 @@ def max_sidelobe_level(P):
     left = main_idx - step
     left_lobe = 0
     while left > step:
-        if P[left] > P[left-step] and P[left] > P[left+step]:
+        if P[left] > P[left - step] and P[left] > P[left + step]:
             left_lobe = P[left]
             break
         left -= step
@@ -46,7 +46,7 @@ def max_sidelobe_level(P):
     right = main_idx + step
     right_lobe = 0
     while right < len(P) - step:
-        if P[right] > P[right-step] and P[right] > P[right+step]:
+        if P[right] > P[right - step] and P[right] > P[right + step]:
             right_lobe = P[right]
             break
         right += step
@@ -54,43 +54,35 @@ def max_sidelobe_level(P):
     sidelobe = max(left_lobe, right_lobe)
     return 20 * np.log10(sidelobe)
 
+
 def directivity(P_db, angles_deg):
-    P_db = np.array(P_db)
-    angles_deg = np.array(angles_deg)
 
-    F = 10 ** (P_db / 10)
+    F_linear = 10 ** (P_db / 20)
 
-    delta_phi = np.deg2rad(angles_deg[1] - angles_deg[0])
+    F_norm = F_linear / np.max(F_linear)
 
-    D = 2 * np.pi / (np.sum(F**2) * delta_phi)
+    angles_rad = np.radians(angles_deg)
+    delta_phi = angles_rad[1] - angles_rad[0]
 
-    D_db = 10 * np.log10(D)
+    integral_F2 = np.sum(F_norm ** 2) * delta_phi
+    D = 2 * np.pi / integral_F2
 
-    return D_db
+    return 10 * np.log10(D)
 
 UBL = max_sidelobe_level(P_normalize)
-bw= beamwidth(angles,P_normalize)
+bw = beamwidth(angles,P_normalize)
 D_db = directivity(20*np.log10(P_normalize), angles)
 print("КНД =", D_db, "дБ")
 print("Ширина главного лепестка:", bw)
 print("УБЛ:", UBL, "дБ")
 
 plt.figure(figsize=(10, 6))
-text = (
-    f"Ширина главного лепестка: {bw:.2f}°\n"
-    f"УБЛ: {UBL:.2f} dB\n"
-    f"КНД: {D_db:.2f} dB"
-)
-plt.text(0.60, 0.28, text, transform=plt.gca().transAxes,
-             verticalalignment='top', fontsize=12,
-             bbox=dict(facecolor='white', alpha=0.7))
-
-plt.plot(angles,20*np.log10(P_normalize),label = 'Диграмма направленности')
-plt.axhline(y=half_p,color = 'red',linestyle='--',label = 'уровень половинной мощности')
-plt.xlabel('Азимут, град.')
-plt.ylabel('Мощность, ДБ')
+plt.plot(angles,20*np.log10(P_normalize),'black',label = 'Диграмма направленности')
+plt.axhline(y=half_p,color = 'black',linestyle='--',label = 'уровень половинной мощности')
+plt.xlabel('Угол, градусы')
+plt.ylabel('Уровень, ДБ')
 plt.yticks(np.arange(-60, 5, 5))
-plt.xticks(np.arange(-90, 100, 10))
+plt.xticks(np.arange(-100, 100, 5))
 plt.title('ДН по азимуту')
 plt.legend()
 plt.grid(True)
