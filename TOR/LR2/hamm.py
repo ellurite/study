@@ -129,7 +129,7 @@ if __name__ == '__main__':
     wave_lenght = 8.575e-3
     razryadnost_ampl = 8
     razryadnost_phase = 12
-    phi = 20 * np.pi / 180  # угол сканирования
+    phi = 20 * np.pi / 180
     half_p = -3
     coordinats = corr(Nel, d_element)
 

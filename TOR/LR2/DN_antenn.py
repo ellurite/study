@@ -14,7 +14,6 @@ P_normalize = P/np.max(P)
 angles = np.linspace(-90, 90, len(P))
 half_p = -3
 
-
 def beamwidth(angles, P):
     angles = np.array(angles)
     P = np.array(P)
