@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83c7f5b7-eeab-44c8-8672-aecea8074f10" name="Changes" comment=" regroup">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="83c7f5b7-eeab-44c8-8672-aecea8074f10" name="Changes" comment="lab_work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOR/LR2/DN_antenn.py" beforeDir="false" afterPath="$PROJECT_DIR$/TOR/LR2/DN_antenn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOR/LR2/hamm.py" beforeDir="false" afterPath="$PROJECT_DIR$/TOR/LR2/hamm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760537610999</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lab_work">
+      <option name="closed" value="true" />
+      <created>1764335635677</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764335635677</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,7 +151,8 @@
     <MESSAGE value="task 1" />
     <MESSAGE value="rename" />
     <MESSAGE value=" regroup" />
-    <option name="LAST_COMMIT_MESSAGE" value=" regroup" />
+    <MESSAGE value="lab_work" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab_work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
